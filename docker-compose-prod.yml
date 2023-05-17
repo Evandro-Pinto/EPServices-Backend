@@ -2,11 +2,11 @@ version: '3.4'
 
 services:
 
-  igotci_backend:
+  strapi_devtrust:
     container_name: strapi_devtrust
     build:
       context: .
-      dockerfile: Dockerfile.prod
+      dockerfile: Dockerfile
       
   postgres:
     container_name: postgres
