@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_linguagens_linguagens",
+  "info": {
+    "displayName": "Linguagens"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

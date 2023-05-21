@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_cabecalhos",
+  "info": {
+    "displayName": "Cabecalho"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
