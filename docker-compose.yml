@@ -1,10 +1,10 @@
 version: "3.4"
 services:
   api:
-    container_name: strapi_devtrust_api_v1
+    container_name: strapi_eps_api_v1
     restart: unless-stopped
     tty: true
-    image: devtrustcv/strapi_devtrust_api_v1:0.0.1
+    image: epservices/strapi_eps_api_v1:0.0.1
     build:
       context: .
       dockerfile: Dockerfile
@@ -14,10 +14,10 @@ services:
     ports:
       - 1337:1337
     networks:
-      - strapi_devtrust_network
+      - strapi_eps_network
 #    depends_on:
 #      - db
 networks: 
-  strapi_devtrust_network:
+  strapi_eps_network:
     driver: bridge
-    name: strapi_devtrust_network
+    name: strapi_eps_network

@@ -1,5 +1,5 @@
 {
-  "name": "eps-back",
+  "name": "ep-service-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -7,27 +7,32 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "clear": "npm cache clean"
   },
   "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-documentation": "^4.10.5",
     "@strapi/plugin-graphql": "^4.10.5",
-    "@strapi/plugin-i18n": "4.10.5",
-    "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/strapi": "4.10.6",
+    "@strapi/plugin-users-permissions": "4.10.6",
+    "@strapi/provider-email-nodemailer": "^4.10.6",
+    "@strapi/plugin-i18n": "4.10.6",
     "@strapi/provider-upload-cloudinary": "^4.10.5",
-    "@strapi/strapi": "4.10.5",
     "@treblle/strapi": "^0.0.10",
     "documentation": "^14.0.1",
     "pg": "8.8.0",
+    "strapi-plugin-custom-api": "^1.0.4",
     "strapi-plugin-duplicate-button": "^1.1.9",
-    "strapi-plugin-todo": "^0.0.9"
+    "strapi-plugin-ezforms": "^0.1.5",
+    "strapi-plugin-todo": "^0.0.9",
+    "strapi-provider-upload-cloudinary": "^3.6.11"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "8fe2543d-75c5-4780-b8f6-70b1eab2a723"
+    "uuid": "ed1c4e47-ec7d-4f5a-9a9c-4f2db7b0a751"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
