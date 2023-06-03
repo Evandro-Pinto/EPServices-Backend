@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_seo_meta_seos",
+  "info": {
+    "displayName": "SEO",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "prevenirIndexacao": {
+      "type": "boolean",
+      "default": false
+    },
+    "seoImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo-meta.seo-image"
+    }
+  }
+}

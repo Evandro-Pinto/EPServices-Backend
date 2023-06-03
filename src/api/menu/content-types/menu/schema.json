@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "empresas",
+  "collectionName": "menus",
   "info": {
-    "singularName": "empresa",
-    "pluralName": "empresas",
-    "displayName": "Page Empresa",
-    "description": ""
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu"
   },
   "options": {
     "draftAndPublish": true
@@ -16,14 +15,15 @@
     }
   },
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true,
+    "menu": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "cabecalho.menu"
     }
   }
 }

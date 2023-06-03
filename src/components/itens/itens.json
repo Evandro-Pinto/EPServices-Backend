@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_itens_itens",
+  "info": {
+    "displayName": "itens"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "valor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "idiomas.linguagens"
+    }
+  }
+}

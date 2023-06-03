@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hoobies",
+  "info": {
+    "singularName": "hoobie",
+    "pluralName": "hoobies",
+    "displayName": "Hoobies"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "firstSectionTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
+    },
+    "firstSectionSubTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

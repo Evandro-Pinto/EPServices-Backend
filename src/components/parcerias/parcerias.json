@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_parcerias_parcerias",
+  "info": {
+    "displayName": "Parcerias"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "descricaoImagem": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

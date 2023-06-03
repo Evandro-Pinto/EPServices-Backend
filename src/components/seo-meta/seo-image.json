@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_seo_meta_seo_images",
+  "info": {
+    "displayName": "SeoImage"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
