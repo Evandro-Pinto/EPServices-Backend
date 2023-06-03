@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_portfolios",
+  "info": {
+    "singularName": "page-portfolio",
+    "pluralName": "page-portfolios",
+    "displayName": "Page Portfolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

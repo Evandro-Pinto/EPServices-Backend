@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cabecalho_menus",
+  "info": {
+    "displayName": "Menu"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "route": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::route.route"
+    }
+  }
+}

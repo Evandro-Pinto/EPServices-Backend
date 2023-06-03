@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "contacte_mes",
+  "collectionName": "pagina_homes",
   "info": {
-    "singularName": "contacte-me",
-    "pluralName": "contacte-mes",
-    "displayName": "Page Contact",
+    "singularName": "pagina-home",
+    "pluralName": "pagina-homes",
+    "displayName": "Page Home",
     "description": ""
   },
   "options": {
@@ -22,9 +22,19 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "itens": {
+    "subtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
+    },
+    "redesSociais": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -32,25 +42,7 @@
           "localized": true
         }
       },
-      "component": "itens.itens"
-    },
-    "formItens": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "idiomas.linguagens"
-    },
-    "actionTitle": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      "component": "redes-sociais.redes-sociais"
     }
   }
 }
